@@ -81,6 +81,6 @@ video{
 }
 .prova{
     position: absolute;
-    top: 1px;
+    top: 0px;
 }
 </style>
