@@ -1,5 +1,6 @@
 <script>
 import HeaderPrincipale from './components/HeaderPrincipale.vue';
+import MainPrincipale from "./components/MainPrincipale.vue";
 export default {
     data() {
         return {
@@ -7,13 +8,15 @@ export default {
         }
     },
     components: {
-        HeaderPrincipale,
+      HeaderPrincipale,
+        MainPrincipale,
     },
 }
 </script>
 
 <template>
   <HeaderPrincipale></HeaderPrincipale>
+  <MainPrincipale></MainPrincipale>
 </template>
 
 <style scoped>

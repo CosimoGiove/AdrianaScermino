@@ -27,7 +27,7 @@ export default {
           <div class="video1">
             <video autoplay loop muted  src="/src/assets/1858314-hd_1920_1080_30fps.mp4"></video>
             <div class="prova">
-                
+                Illumina la tua storia, un  <span class="fotogramma">fotogramma</span> alla volta!
             </div>
           </div>
           
@@ -36,10 +36,23 @@ export default {
 </template>
 
 <style scoped>
+.fotogramma{
+    background-color: #2BADE2;
+    border-radius: 5px;
+    padding: 3px 3px;
+}
 .contenitore {
     justify-content: center;
     align-items: center;
     display: flex;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: calc(0.8);
+
 }
 
 ul {
@@ -55,6 +68,9 @@ ul {
     margin-right: 10px;
     font-size: 20px;
 }
+.lii:hover{
+    color: blue
+}
 
 header {
     background-color: #111111;
@@ -62,18 +78,28 @@ header {
 }
 
 .portfolio {
-    background-color: #269b93;
+    background-color: #2BADE2;
     padding: 5px 5px;
     border-radius: 10px;
 }
 
 .immagineheader img {
     width: 70px;
+    animation: animazione 5s infinite;
 
+}
+@keyframes animazione {
+    0%{
+        transform: rotate(360deg);
+    }
+
+    
 }
 video{
     width: 100%;
     opacity: 0.2;
+    filter: blur(3px);
+    
 }
 .video1{
     position: relative;
@@ -81,6 +107,10 @@ video{
 }
 .prova{
     position: absolute;
-    top: 0px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50% , -50%);
+    font-family: cursive;
+
 }
 </style>
