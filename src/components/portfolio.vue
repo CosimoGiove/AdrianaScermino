@@ -193,7 +193,7 @@ export default {
             showShooting: false,
             filteredShooting: [],
             showConcerti: false,
-            filteredConcerti:[],
+            filteredConcerti: [],
 
         }
     },
@@ -210,7 +210,7 @@ export default {
                 return this.photo.slice(0,6);
             }
         },
-    }
+    },
 
 }
 </script>
