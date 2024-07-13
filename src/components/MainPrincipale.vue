@@ -96,7 +96,7 @@ width: 60px;
 }
 
 .img1 img {
-    width: 100%;
+    width: 80%;
 
 }
 
