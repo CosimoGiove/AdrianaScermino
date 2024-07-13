@@ -99,6 +99,7 @@ video{
     width: 100%;
     opacity: 0.2;
     filter: blur(3px);
+    margin-top: 100px;
     
 }
 .video1{
