@@ -34,5 +34,57 @@ window.addEventListener('scroll', () => {
 
   if (scrollPosition >= elementPosition) {
     masterElementsimg.classList.add('active');
+  } else {
+    masterElementsimg.classList.remove('active');
+  }
+});
+const masterElementsimgs = document.querySelector('.imgfamoso');
+
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY + window.innerHeight;
+  const elementPosition = masterElementsimgs.offsetTop; // Fix typo here
+
+  if (scrollPosition >= elementPosition) {
+    masterElementsimgs.classList.add('active');
+  } else {
+    masterElementsimgs.classList.remove('active');
+  }
+});
+
+const masterElementsimgss = document.querySelector('.prima');
+
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY + window.innerHeight;
+  const elementPosition = masterElementsimgss.offsetTop; // Fix typo here
+
+  if (scrollPosition >= elementPosition) {
+    masterElementsimgss.classList.add('active');
+  } else {
+    masterElementsimgss.classList.remove('active');
+  }
+});
+
+const masterElementsimgsss = document.querySelector('.seconda');
+
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY + window.innerHeight;
+  const elementPosition = masterElementsimgsss.offsetTop; // Fix typo here
+
+  if (scrollPosition >= elementPosition) {
+    masterElementsimgsss.classList.add('active');
+  } else {
+    masterElementsimgsss.classList.remove('active');
+  }
+});
+const masterElementsimgssss = document.querySelector('.terza');
+
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY + window.innerHeight;
+  const elementPosition = masterElementsimgssss.offsetTop; // Fix typo here
+
+  if (scrollPosition >= elementPosition) {
+    masterElementsimgssss.classList.add('active');
+  } else {
+    masterElementsimgssss.classList.remove('active');
   }
 });

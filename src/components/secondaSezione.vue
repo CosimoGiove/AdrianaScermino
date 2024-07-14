@@ -12,13 +12,13 @@ export default {
     <section>
         <h2 class="text-center dicono pt-5">Cosa dicono di me</h2>
         <div class="carosello ">
-            <div id="carouselExampleInterval" class="carousel slide foto" data-bs-ride="carousel">
+            <!-- <div id="carouselExampleInterval" class="carousel slide foto" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="carousel-item active">
                         <img src="/public/bf51cdbe-381c-4457-9ea0-bf642a2254b8-removebg-preview.png"
                             class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
+                    <div class="carousel-item">
                         <img src="/public/21e469eb-189b-4926-a572-e5aa0c8405db-removebg-preview.png"
                             class="d-block w-100 img-fluid" alt="...">
                     </div>
@@ -39,7 +39,31 @@ export default {
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+            </div> -->
+            <div id="carouselExample" class="carousel slide foto">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/public/prima.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/public/seconda.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/public/terza.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/public/quarta.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon successivo" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon successivo" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
         </div>
         <hr>
         <div>
@@ -58,6 +82,10 @@ export default {
 </template>
 
 <style scoped>
+
+.successivo{
+   background-color: #2BADE2
+}
 .eventi {
     color: white;
     margin-top: 20px;

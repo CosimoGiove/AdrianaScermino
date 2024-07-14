@@ -12,7 +12,7 @@ export default {
 <template>
     <section>
         <div class="container">
-            <h2 class="text-center pt-3 pb-3"> In primo piano</h2>
+            <h2 class="text-center pt-3 pb-3 ciao"> In primo piano</h2>
             <div class="imgfamoso text-center">
                 <img src="/public/shooting20.jpg" alt="">
             </div>
@@ -20,7 +20,7 @@ export default {
         </div>
         <h2 class="text-center pt-3 pb-3">Il mio portfolio</h2>
         <div class="d-flex itemflexxati">
-            <div class="card col-12" style="width: 18rem;">
+            <div class="card col-12 prima" style="width: 18rem;">
                 <img src="/public/shooting15.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Shooting</h5>
@@ -95,7 +95,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="card col-12" style="width: 18rem;">
+            <div class="card col-12 seconda" style="width: 18rem;">
                 <img src="/public/concerto6.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Concerto</h5>
@@ -180,7 +180,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="card col-12" style="width: 18rem;">
+            <div class="card col-12 terza" style="width: 18rem;">
                 <img src="/public/natura1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Paesaggio</h5>
@@ -270,6 +270,46 @@ export default {
 </template>
 
 <style scoped>
+ .terza {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 3s, transform 2s; /* you can combine the transitions into one line */
+}
+
+.terza.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+ .seconda {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 3s, transform 2s; /* you can combine the transitions into one line */
+}
+
+.seconda.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+ .prima {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 3s, transform 2s; /* you can combine the transitions into one line */
+}
+
+.prima.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+ .imgfamoso {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 3s, transform 2s; /* you can combine the transitions into one line */
+}
+
+.imgfamoso.active {
+  opacity: 1;
+  transform: translateX(0);
+}
 .card-img-top {
   height: 200px; /* set the height to 200px, adjust as needed */
   object-fit: contain;
@@ -282,13 +322,12 @@ export default {
 
 .imgfamoso img:hover{
     opacity: 0.5;
-    transition: 0.5s
+    transition: 0.5s;
 
 }
 .card {
     margin-top: 20px;
     margin-bottom: 10px;
-    width: 
 
 }
 
@@ -315,9 +354,13 @@ export default {
 }
 
 .fotonatura img {
-    width: 150px;
+    width: 110px;
     height: 200px;
     object-fit: cover;
+}
+.fotonatura img:hover{
+   transform: scale(1.5);
+
 }
 
 section {
