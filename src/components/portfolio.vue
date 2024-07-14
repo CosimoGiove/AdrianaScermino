@@ -243,15 +243,6 @@ export default {
                                         <div class="fotonatura">
                                             <img src="/public/natura18.jpg" alt="">
                                         </div>
-                                        <div class="fotonatura">
-                                            <img src="/public/concerto18.jpg" alt="">
-                                        </div>
-                                        <div class="fotonatura">
-                                            <img src="/public/concerto20.jpg" alt="">
-                                        </div>
-                                        <div class="fotonatura">
-                                            <img src="/public/concerto21.jpg" alt="">
-                                        </div>
 
                                     </div>
 
@@ -270,36 +261,6 @@ export default {
 </template>
 
 <style scoped>
- .terza {
-  opacity: 0;
-  transform: translateX(-100px);
-  transition: opacity 3s, transform 2s; /* you can combine the transitions into one line */
-}
-
-.terza.active {
-  opacity: 1;
-  transform: translateX(0);
-}
- .seconda {
-  opacity: 0;
-  transform: translateX(-100px);
-  transition: opacity 3s, transform 2s; /* you can combine the transitions into one line */
-}
-
-.seconda.active {
-  opacity: 1;
-  transform: translateX(0);
-}
- .prima {
-  opacity: 0;
-  transform: translateX(-100px);
-  transition: opacity 3s, transform 2s; /* you can combine the transitions into one line */
-}
-
-.prima.active {
-  opacity: 1;
-  transform: translateX(0);
-}
  .imgfamoso {
   opacity: 0;
   transform: translateX(-100px);

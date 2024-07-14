@@ -28,7 +28,7 @@ export default {
         </div>
         <div class="container-fluid">
           <div class="video1">
-            <video autoplay loop muted  src="/src/assets/1858314-hd_1920_1080_30fps.mp4"></video>
+            <video autoplay loop muted  src="/src/assets/videoprova.mp4"></video>
             <div class="prova">
                 Illumina la tua storia, un  <span class="fotogramma">fotogramma</span> alla volta!
             </div>

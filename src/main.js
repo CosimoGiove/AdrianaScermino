@@ -13,6 +13,8 @@ window.addEventListener('scroll', () => {
 
   if (scrollPosition >= elementPosition) {
     masterElementss.classList.add('active');
+  }else {
+    masterElementsimgss.classList.remove('active');
   }
 });
 
@@ -24,6 +26,8 @@ window.addEventListener('scroll', () => {
 
   if (scrollPosition >= elementPosition) {
     masterElements.classList.add('active');
+  }else {
+    masterElementsimgs.classList.remove('active');
   }
 });
 const masterElementsimg = document.querySelector('.animazione');
