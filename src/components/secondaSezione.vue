@@ -90,6 +90,11 @@ export default {
 .foto {
     width: 80%;
 }
+@media (min-width: 768px) {
+  .foto{
+    width: 40%;
+  }
+}
 
 .imgsfondo img {
     width: 100%;

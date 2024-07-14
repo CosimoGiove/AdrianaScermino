@@ -103,6 +103,15 @@ width: 60px;
 
 }
 
+@media (min-width: 768px) {
+    .img1 img{
+        width: 30%;
+    }
+    .imgtop{
+        text-align: center;
+    }
+}
+
 .nome {
     background-color: #2BADE2;
     border-radius: 5px;

@@ -12,7 +12,7 @@ export default {
 <template>
     <section>
         <div class="container">
-            <h2 class="text-center"> In primo piano</h2>
+            <h2 class="text-center pt-3 pb-3"> In primo piano</h2>
             <div class="imgfamoso text-center">
                 <img src="/public/shooting20.jpg" alt="">
             </div>
@@ -270,6 +270,10 @@ export default {
 </template>
 
 <style scoped>
+.card-img-top {
+  height: 200px; /* set the height to 200px, adjust as needed */
+  object-fit: contain;
+}
 .imgfamoso img{
     width: 80%;
     border-top: 10px solid #2BADE2 ;
@@ -323,5 +327,13 @@ section {
 
 h2 {
     color: white;
+}
+@media (min-width: 768px) {
+    .imgfamoso img{
+        width: 50%;
+    } 
+    .card{
+        margin-left: 10px;
+    }
 }
 </style>

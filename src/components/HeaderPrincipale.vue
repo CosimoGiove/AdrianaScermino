@@ -18,8 +18,11 @@ export default {
                     </div>
                 </div>
                 <div class="lii">Home</div>
-                <div class="portfolio lii">Portfolio</div>
-                <div class="lii">Chi sono</div>
+                <div class="portfolio lii">
+                    <a href="https://wa.me/+393886283201"><i class="fa-brands fa-square-whatsapp icona">  Contatta
+                    </i></a>
+                </div>
+                <!-- <div class="lii">Chi sono</div> -->
 
             </div>
         </div>
@@ -36,6 +39,14 @@ export default {
 </template>
 
 <style scoped>
+.icona{
+    font-size: 1.2em;  
+}
+
+.portfolio a i{
+    color:green;
+}
+
 .fotogramma{
     background-color: #2BADE2;
     border-radius: 5px;
@@ -78,7 +89,6 @@ header {
 }
 
 .portfolio {
-    background-color: #2BADE2;
     padding: 5px 5px;
     border-radius: 10px;
 }
