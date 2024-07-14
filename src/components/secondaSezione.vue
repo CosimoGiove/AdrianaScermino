@@ -10,7 +10,7 @@ export default {
 
 <template>
     <section>
-        <h2 class="text-center dicono">Cosa dicono di me</h2>
+        <h2 class="text-center dicono pt-5">Cosa dicono di me</h2>
         <div class="carosello ">
             <div id="carouselExampleInterval" class="carousel slide foto" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -45,36 +45,15 @@ export default {
         <div>
             <div class="container contenitorefoto">
                 <div class="col-6 col-md-4 imgsfondo">
-                    <img src="/public/nicolas-ladino-silva-o2DVsV2PnHE-unsplash.jpg" alt="">
+                    <img src="/public/fotoo1.jpg" alt="">
                     <h2 class="shooting">Shooting</h2>
                 </div>
                 <div class="col-6 col-md-4 imgsfondo">
-                    <img src="/public/jakob-owens-HuNenPCNG84-unsplash.jpg" alt="">
+                    <img src="/public/video1.jpg" alt="">
                     <h2 class="shooting">Video</h2>
                 </div>
             </div>
         </div>
-        <h2 class="eventi">Eventi</h2>
-
-        <div class="container contenitorefoto animazione">
-            <div class="col-6 col-md-3 imgsfondo">
-                <img src="/public/olenka-kotyk-AmfXXRcW2S8-unsplash.jpg" alt="">
-                <h2 class="shooting">Cerimonie</h2>
-            </div>
-            <div class="col-6 col-md-3 imgsfondo">
-                <img src="/public/tijs-van-leur-So6YckShOVA-unsplash.jpg" alt="">
-                <h2 class="shooting">Concerti</h2>
-            </div>
-            <div class="col-6 col-md-3 imgsfondo">
-                <img src="/public/thiago-goncalves-oGfdczFFuyo-unsplash.jpg" alt="">
-                <h2 class="shooting">Glamour</h2>
-            </div>
-            <div class="col-6 col-md-3 imgsfondo">
-                <img src="/public/thomas-william-Q3PzwHKpEdc-unsplash.jpg" alt="">
-                <h2 class="shooting">Eventi importanti</h2>
-            </div>
-        </div>
-
     </section>
 </template>
 

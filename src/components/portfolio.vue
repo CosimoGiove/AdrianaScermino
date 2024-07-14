@@ -2,214 +2,8 @@
 export default {
     data() {
         return {
-            photo: [
-                {
-                    img: "/public/9b749933-39aa-4ef0-a281-257058106ad6.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/d2459729-8061-4cfa-8853-546dcebaf65c.jpg",
-                    categoria: "shooting"
-                },
-
-                {
-                    img: "/public/a8b5af45-1112-49c0-842c-250d760fddd7.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/3f8e2410-b098-498e-b06b-3b004c90e383.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/799ea257-4722-423b-83c5-7e744938cc3c.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/bc8e1545-a4c8-459f-b75c-e4c1d3bc968f.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/7dd63733-adf7-4ec5-8ed1-4bd892db9a42.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/0b43a7d8-abd8-40ea-898e-917349bf2cb2.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/8a368629-b1a8-4350-894d-6ba15ea5a6d1.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/c5dbb142-4300-4962-9e32-d1c007a6123a.jpg",
-                    categoria: "shooting"
-                },
-
-                {
-                    img: "/public/2c9eb268-7552-455a-975f-eed3b38f66b3.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/efd7c067-f06a-405d-a3fd-cc56478f3790.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/d473d270-09f1-41aa-a81b-d73c8a68cafc.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/03bcfb6c-0944-4aed-b071-e5b0da309e32.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/79d57416-a2e5-4efc-9e88-4ef5361eb087.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/8774fda9-7e98-4263-9235-61aa37cde506.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/31633617-a4b9-4db1-a5fa-b2e91294f9a6.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/982a8e64-b957-40bb-a73b-f6840bf70b5d.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/b390728a-2ebe-4be1-92c7-4162b3a774be.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/3ee62473-f587-4b1c-b67e-cfd2f99a3827.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/754af4a5-45fa-428e-89a9-a516cb2a4129.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/27e6b9ee-f0b4-4587-99fc-32efbf22fdea.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/231ced51-3c59-4c3b-9b81-b6b8bc7f38ac.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/79ddd8d1-8ff8-4c0c-9052-ac8d6c7e917d.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/15688a69-f9b6-4255-a0fd-7a5b1e672d61.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/ba0cae78-d96e-4dda-b817-52d95319bdfe.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/1730352b-08bb-43a8-958d-4caa2ffbd50d.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/83aafd2c-717a-4d69-b01c-b689f40ca8dd.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/f20f7c90-e4d8-47db-9469-38fb61b2cf5b.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/eb591d49-ced6-4aff-86d4-48feaed5e660.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/51eccc6f-a477-4705-aaa3-24d9d869a9cf.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/70da29c3-af59-4830-8c62-110f315a8be0.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/9c6087ea-bdb7-4a72-a460-1da42215dd00.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/573ffbef-c68f-49f4-945b-5e711efe5a58.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/28fa039e-e184-4c5c-81b1-bbdd60f0b7b5.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/7582eed6-8e67-40fb-8ed0-45d10dc0c1c8.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/09ae7622-48c7-4bbc-8737-c4bb4ede1eda.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/aba36cf9-de7f-4360-9fac-ba7b773f4a33.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/9ad87c37-3568-4af4-b0c8-2367d1377ff3.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/6e71fe5d-924c-41e4-a181-359b716666b5.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/248e42aa-1aab-45fc-9749-88ecc5300520.jpg",
-                    categoria: "natura"
-                },
-                {
-                    img: "/public/580898f7-5900-4761-a89c-761a4110a6f0.jpg",
-                    categoria: "concerto"
-                },
-                {
-                    img: "/public/c92f9bd7-963d-4d35-bf5f-98722bc4e75e.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/bb0a820a-5812-4088-81cc-2a6453b55f0c.jpg",
-                    categoria: "shooting"
-                },
-                {
-                    img: "/public/ebb06ae1-f775-407a-90dd-7cc02c7855a4.jpg",
-                    categoria: "shooting"
-                },
-
-            ],
-            bimbo: "",
-            filteredPhoto: [],
-            showUomo: false,
-            showShooting: false,
-            filteredShooting: [],
-            showConcerti: false,
-            filteredConcerti: [],
 
         }
-    },
-    computed: {
-        filteredPhotos() {
-            if (this.showUomo) {
-                return this.photo.filter(photo => photo.categoria === 'shooting');
-            } if (this.showShooting) {
-                return this.photo.filter(photo => photo.categoria === 'natura');
-            }if (this.showConcerti) {
-                return this.photo.filter(photo => photo.categoria === 'concerto');
-            }
-            else {
-                return this.photo.slice(0,6);
-            }
-        },
     },
 
 }
@@ -217,41 +11,299 @@ export default {
 
 <template>
     <section>
+        <div class="container">
+            <h2 class="text-center"> In primo piano</h2>
+            <div class="imgfamoso text-center">
+                <img src="/public/shooting20.jpg" alt="">
+            </div>
+
+        </div>
         <h2 class="text-center pt-3 pb-3">Il mio portfolio</h2>
-        <div class="d-flex inputfiltrato pb-3">
-            <div class="form-check form-switch">
-            <label for="shooting">Shooting</label>
-            <input type="checkbox" name="shooting" id="shooting" v-model="showUomo" value="shooting"
-                class="form-check-input" role="switch">
-        </div>
-        <div class="form-check form-switch">
-            <label for="natura">Paesaggio</label>
-            <input type="checkbox" name="natura" id="natura" v-model="showShooting" value="natura"
-                class="form-check-input" role="switch">
-        </div>
-        <div class="form-check form-switch">
-            <label for="concerto">Concerti</label>
-            <input type="checkbox" name="concerto" id="natura" v-model="showConcerti" value="concerto"
-                class="form-check-input" role="switch">
-        </div>
-        </div>
-        <div class="container contenitorefoto">
-            <div v-for="photo in filteredPhotos.slice(0,10)" class="fotonatura col-5">
-                <img :src="photo.img" alt="">
+        <div class="d-flex itemflexxati">
+            <div class="card col-12" style="width: 18rem;">
+                <img src="/public/shooting15.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Shooting</h5>
+                    <p class="card-text">Come fotografa ritrattista, mi dedico a catturare l'essenza di chi sei.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Vedi altre foto!
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class=" modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Shooting</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container contenitorefoto">
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting1.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting2.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting4.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting7.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting10.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting12.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting13.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting14.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting15.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting17.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting19.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting20.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shooting22.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/shootinh20.jpg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Torna
+                                        indietro</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12" style="width: 18rem;">
+                <img src="/public/concerto6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Concerto</h5>
+                    <p class="card-text">Con la mia macchina fotografica, il mio obiettivo è trasportarti nel cuore dell'azione, dove la musica incontra la folla.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#concertoModal">
+                       Vedi altre foto!
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="concertoModal" tabindex="-1" aria-labelledby="concertoModalLabel"
+                        aria-hidden="true">
+                        <div class=" modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="concertoModal">Shooting</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container contenitorefoto">
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto1.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto2.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto4.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto5.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto6.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto7.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto8.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto9.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto10.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto11.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto12.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto15.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto16.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto17.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto18.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto20.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto21.jpg" alt="">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Torna
+                                        indietro</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12" style="width: 18rem;">
+                <img src="/public/natura1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Paesaggio</h5>
+                    <p class="card-text">Come fotografo naturalista, sono spinto dalla passione di catturare la bellezza, la maestosità e la serenità del mondo naturale. </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#naturamodale">
+                        Vedi altre foto!
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="naturamodale" tabindex="-1" aria-labelledby="naturamodale"
+                        aria-hidden="true">
+                        <div class=" modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="naturamodale">Shooting</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container contenitorefoto">
+                                        <div class="fotonatura">
+                                            <img src="/public/natura1.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura2.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura4.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura7.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura8.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura10.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura11.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura12.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura13.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura14.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura15.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura16.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura17.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/natura18.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto18.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto20.jpg" alt="">
+                                        </div>
+                                        <div class="fotonatura">
+                                            <img src="/public/concerto21.jpg" alt="">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Torna
+                                        indietro</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 </template>
 
 <style scoped>
-.inputfiltrato{
-    justify-content: space-around;
-    color:#2BADE2 ;
+.imgfamoso img{
+    width: 80%;
+    border-top: 10px solid #2BADE2 ;
+
 }
+
+.imgfamoso img:hover{
+    opacity: 0.5;
+    transition: 0.5s
+
+}
+.card {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 
+
+}
+
+.itemflexxati {
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.inputfiltrato {
+    justify-content: space-around;
+    color: #2BADE2;
+}
+
 .contenitorefoto {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 20px;
 }
 
 .fotonatura {

@@ -9,7 +9,7 @@ export default {
     },
     components: {
       HeaderPrincipale,
-        MainPrincipale,
+      MainPrincipale,
     },
 }
 </script>

@@ -1,6 +1,7 @@
 <script>
 import secondaSezione from "./secondaSezione.vue";
 import portfolio from "./portfolio.vue";
+import formcontatto from "./formcontatto.vue";
 export default {
     name: "Main_",
     data() {
@@ -9,6 +10,7 @@ export default {
     components: {
         secondaSezione,
         portfolio,
+        formcontatto,
     }
 }
 
@@ -47,6 +49,7 @@ export default {
         </div>
         <secondaSezione></secondaSezione>
         <portfolio></portfolio>
+        <formcontatto></formcontatto>
     </main>
 </template>
 
