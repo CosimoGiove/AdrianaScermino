@@ -52,6 +52,10 @@ export default {
             <button class="btn btn-success"type="submit">invia</button>
         </form> -->
         <h3>© 2024 Adriana Scermino</h3>
+        <a href="https://www.iubenda.com/privacy-policy/42292759"
+    class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a>
+    <a href="https://www.iubenda.com/privacy-policy/42292759/cookie-policy"
+    class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a>
     </div>
 </section>
 

@@ -92,3 +92,13 @@ window.addEventListener('scroll', () => {
     masterElementsimgssss.classList.remove('active');
   }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Show the loading indicator initially
+  document.getElementById("loading-indicator").style.display = "block";
+
+  // Hide the loading indicator when the page is fully loaded
+  window.addEventListener("load", function() {
+    document.getElementById("loading-indicator").style.display = "none";
+  });
+});
