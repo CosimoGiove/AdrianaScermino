@@ -73,8 +73,8 @@ export default {
                     <h2 class="shooting">Shooting</h2>
                 </div>
                 <div class="col-6 col-md-4 imgsfondo">
-                    <img src="/public/video1.jpg" alt="">
-                    <h2 class="shooting">Video</h2>
+                    <img src="/public/olenka-kotyk-AmfXXRcW2S8-unsplash (1)-min.jpg" alt="">
+                    <h2 class="shooting">Cerimonie</h2>
                 </div>
             </div>
         </div>
